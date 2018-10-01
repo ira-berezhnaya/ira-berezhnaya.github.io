@@ -1,0 +1,288 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+div{
+  box-sizing: border-box;
+}
+div.headin{
+  background: #d9e5e5;
+  height: 15%;
+}
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+header{
+  background-image:url('img/fon.png');
+  height: 480px;
+}
+.logo a{
+  float: left;
+  text-decoration: none;
+  font-size: 150%;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+nav{
+  float: right;
+  margin-right: 15px;
+  padding-top: 30px;
+}
+.menu{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: block;
+}
+.menu li{
+   float: left;
+   display: block;
+}
+.menu a{  
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 20px;
+  background:#3362b2;
+  border-radius:25px;
+  font-weight: bold;
+  }
+.menu a:hover{
+    background: #2467da;
+}
+h2{
+  text-align: center;
+}
+.button{
+  
+  color: #fff;
+  border-radius: 25px;
+  display: block;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 15px; 
+}
+.titles{
+  width: 420px;
+  text-align: left;
+  color: #3362b2;
+  text-transform:uppercase;
+  float: left;
+}
+h1{
+  margin-top: 15px;
+  font-size: 43px;
+  
+}
+ h3{
+  font-family: "Gill Sans",Arial,sans-serif;
+  font-size: 22px;
+  margin-top: 250px;
+}
+#forma1{
+  background: #f5fafe;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  width: 340px;
+  height: 300px;
+  text-align:center;
+  float: right;
+  margin: 70px 40px 60px 0px;   
+}
+input{
+  background: #f9f5f2;
+  border-radius: 10px;
+  width: 260px;
+  height: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
+#forma1 a{
+  background: #3362b2;
+  width: 230px;
+  margin-top: 20px; 
+}
+#forma1 a:hover{
+    background: #2467da;
+}
+div .zayvka{
+  font-weight: bold;
+  margin: 15px 0px 0px 0px;
+}
+div .dann{
+  font-size: 11px;
+  margin-top: 20px;
+}
+#preim{
+  background: #d9e5e5;
+  height: 100%;
+  padding-top: 40px; 
+}
+#preim h2{
+  margin: 0;
+}
+.preim1{
+  margin: auto;
+}
+.preim1 td{
+  padding: 10px 50px;
+}
+#cena{
+  background: #222d49;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#cena h2{
+  color: #fff;
+}
+.podb{
+  display: block;
+
+}
+div .podb{
+  font-size: 12px; 
+  background: #fff;
+  width: 230px;
+  height:500px;
+  border-radius: 10px;
+  display: block;
+  padding: 20px;
+  margin: 40px 20px 20px 50px;
+  float: left;
+}
+.podb a{
+  background: #3362b2;
+  display: block;
+}
+.podb .big{
+  font-size: 20px;
+  font-weight: bold;
+}
+.odin{
+  margin-top: 68px;
+}
+.dva{
+  margin-top: 64px;
+}
+.bankr a[class="pod"]{
+  background: #fff;
+  margin: 20px 0px 0px 50px; 
+  text-decoration:underline;
+}
+section h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+#rasthet{
+  background: #fff;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.opros h2{
+  margin: 0;
+}
+.status label{
+margin-right: 120px;}
+#colon1{
+  float: left;
+}
+#colon2{
+  float: right;
+}
+#forma2{
+  font-size: 10px;
+}
+fieldset{
+  border: none;
+  margin: 0px;
+  width: 425px;
+}
+fieldset input{
+  background: #f5fafe;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 10px;
+  width: 400px;
+  height: 25px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  border: none;
+}
+a[class=button]:hover{
+    background: #2467da;
+}
+input[type=radio]{
+  margin-top: 22px;
+  margin-bottom: 25px;
+}
+hr{
+  width: auto;
+  height: 2px;
+  background: #3362b2;
+  margin-bottom: 20px;
+} 
+.big{
+  font-weight: bold;
+}
+.small {
+  font-size: 10px;
+  line-height: 1.8em;
+}
+#forma2 a{
+  background: #3362b2;
+  width: 230px;
+}
+#forma2 a:hover{
+    background: #2467da;
+} 
+footer{
+  background: #d9e5e5;
+  padding: 20px;
+}
+
+ #logo{
+  float: left;
+  width: 30%;
+  margin-top: 30px;
+}
+
+.menu2 ul{
+  float: left;
+  list-style: none;
+}
+.menu2 li{
+  margin-top: 10px;
+  padding-left: 36px;
+}
+.menu2 a{
+   text-decoration: none;
+   font-weight: bold;
+   color: #000;
+}
+.cantact{
+  float: right;
+  width: : 30%;
+  margin-top: 30px;
+}
+.cantact p{
+ margin: 0;
+}
+
+
+
+
