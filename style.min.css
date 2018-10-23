@@ -1,0 +1,83 @@
+*{margin:0;padding:0}
+body{font-family:Roboto,sans-serif}
+.container{margin:0 auto;max-width:1140px}
+h2{font-size:30px;font-weight:400;letter-spacing:.4em;color:#000;text-transform:uppercase}
+h4{font-size:18px;font-weight:400;letter-spacing:.3em;color:#000;text-transform:uppercase}
+p{font-size:14px;font-weight:400;color:#777}
+strong{color:#000}
+.clearfix:after{content:"";display:block;clear:both}
+.header{background:#fff;max-height:100%}
+.header .container{padding:28px 0 28px 0}
+.logo{display:inline-block;vertical-align:top}
+.logo img{display:block}
+.logo img:hover{background:url(../img/logo1.png) no-repeat center}
+.nav{display:inline-block;float:right}
+.menu{display:inline-block;vertical-align:top;font-size:0;margin-top:10px}
+.menu>li{display:inline-block;vertical-align:top}
+.menu>li>a{font-size:14px;font-weight:700;text-transform:uppercase;text-decoration:none;color:#777;padding-left:48px;position:relative;transition:all .2s}
+.menu a:hover{color:#000}
+.menu a:hover::before{content:'';position:absolute;display:inline-block;margin-right:20px;width:20px;height:15px;left:20px;background:url(../img/line1.png) no-repeat center;-webkit-background-size:auto;background-size:100%;vertical-align:top}
+.contact{background:#f0f0f2;background-image:url(../img/bgr.jpg);background-position:center;background-size:cover;box-shadow:inset 0 15px 15px -15px rgba(0,0,0,.15)}
+.title{padding:115px 0 40px 0}
+.title h1{font-size:48px;font-weight:lighter;color:#fff;background:#000;width:38%;text-align:center;text-transform:uppercase}
+.title h4{margin:45px 0 15px 0;cursor:pointer}
+.cont{font-size:14px;font-weight:700;line-height:2em;color:#989898;width:80%;opacity:0;transition:all 2s}
+.title>h4:hover+.cont{opacity:1}
+.office{background:#fff;padding:80px 0}
+.office .direct{display:inline-block;max-width:325px;min-width:260px;width:100%}
+.direct h2{text-align:left;margin-bottom:15px;vertical-align:top}
+.direct p{margin-bottom:22px;width:100%}
+.direct hr{width:60px;margin-bottom:43px;border:none;height:2px;background-color:#333}
+a.tell{font-weight:700;text-decoration:none;color:#555;margin-left:3px}
+.direct>p:nth-last-child(2){margin-bottom:11px}
+.forma{max-width:745px;min-width:260px;margin-left:65px;display:inline-block;vertical-align:top;width:100%}
+.forma>div{padding:10px;text-align:left}
+.inputs{width:100%;margin:0}
+.inputs input{width:47%;height:38px;text-indent:10px;outline:0;border:1px solid #ebebeb;border-radius:2px;border-left:3px solid #ebebeb;margin-bottom:34px;box-sizing:border-box;font-size:13px;font-style:italic}
+.inputs input:last-child{margin-left:35px}
+.inp:hover{border-left:3px solid #bababa}
+::-webkit-input-placeholder{color:#bababa}
+::-moz-placeholder{color:#bababa}
+:-moz-placeholder{color:#bababa}
+:-ms-input-placeholder{color:#bababa}
+textarea{width:100%;height:150px;text-indent:10px;outline:0;border:1px solid #ebebeb;border-radius:2px;border-left:3px solid #ebebeb;margin-bottom:34px;box-sizing:border-box;font-size:13px;font-style:italic;color:#bababa;resize:none;padding-top:5px}
+input[type=submit]{font-size:15px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-align:center;color:#fff;background:#000;width:29%;height:40px;outline:0;border-radius:3px;cursor:pointer}
+.values{text-align:center;line-height:2em;padding:70px 0 65px 0;background-color:#fafafa;box-shadow:inset 0 -15px 15px -15px rgba(0,0,0,.15)}
+.values.container{font-size:0}
+.vals h2{margin-bottom:45px}
+.vals p{max-width:595px;margin:0 auto}
+.imges{max-width:355px;display:inline-block;vertical-align:top;padding:65px 0;text-align:left;margin-right:33px}
+.imges:last-of-type{margin-right:0}
+.imges img{display:block;margin-bottom:27px;max-width:100%}
+.imges p{margin-top:40px}
+.footer{background:#fff;text-align:center;padding:65px 0 45px}
+.footlogo{margin-bottom:45px}
+.footlogo img:hover{background:url(../img/logo1.png) no-repeat center}
+.social{border-top:1px solid #ebebeb;border-bottom:1px solid #ebebeb}
+.social li{text-decoration:none;display:inline-block;margin-left:56px;text-align:center;border-top:1px solid #fff;border-bottom:1px solid #fff;padding:25px;transition:all .4s}
+.social li:hover{border-top:1px solid #000;border-bottom:1px solid #000}
+.social a{color:#777}
+.copy{margin-top:40px}
+.militix{font-size:13px;text-transform:uppercase;text-decoration:none;text-align:center;color:#9c9c9c}
+@media screen and (max-width:480px){
+.header{text-align:center}
+.menu{text-align:left}
+.menu li{margin-top:20px}
+.contact{background-color:#f0f0f2}
+.title{padding-top:40px}
+.cont,.title h1{margin:0 auto;width:90%}
+.title h4{text-align:center}
+.office{padding-top:40px}
+.office .direct{max-width:420px;width:100%}
+.direct h2{text-align:center}
+.direct p{text-align:center}
+.direct hr{margin:0 auto;margin-bottom:43px}
+.forma{display:block;margin:0 auto}
+.forma div{text-align:center}
+.inputs input{width:100%;margin:0}
+.inputs input:last-child{margin:20px 0}
+input[type=submit]{width:60%}
+.targ .imges{margin:0 auto;text-align:center}
+.social ul{margin:0 auto}
+.social li{margin:0 auto}
+}
